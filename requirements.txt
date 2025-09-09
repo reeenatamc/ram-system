@@ -1,0 +1,15 @@
+asgiref==3.9.1
+certifi==2025.8.3
+charset-normalizer==3.4.3
+Django==5.2.5
+django-cors-headers==4.3.1
+django-unfold==0.65.0
+djangorestframework==3.14.0
+idna==3.10
+pillow==11.3.0
+psycopg==3.2.10
+python-decouple==3.8
+pytz==2025.2
+requests==2.32.5
+sqlparse==0.5.3
+urllib3==2.5.0
