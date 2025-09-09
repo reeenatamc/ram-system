@@ -1,0 +1,86 @@
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+Icon?
+.Spotlight-V100
+.Trashes
+
+.idea/
+.vscode/
+*.iml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+*.env
+
+# --- Packaging / Build artifacts ---
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Testing / Coverage ---
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+*.cover
+.cache
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+htmlcov/
+
+# --- Type checkers ---
+.mypy_cache/
+.pyre/
+.pytype/
+
+# --- Documentation ---
+docs/_build/
+
+# --- Django specifics ---
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+celerybeat-schedule
+*.log
+
+# Media uploads (do not version user-uploaded files)
+media/
+website/media/
+
+# Collected static files (keep source static files tracked, ignore collected output)
+staticfiles/
+collected_static/
+static_root/
+
+# Instance/runtime
+instance/
+.werkzeug/
+
+# --- Django migrations (ignored as requested) ---
+**/migrations/*.py
+!**/migrations/__init__.py
+
